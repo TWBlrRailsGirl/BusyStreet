@@ -1,4 +1,7 @@
 Busystreet1::Application.routes.draw do
+  resources :alerts
+
+
   resources :subscribers
 
 

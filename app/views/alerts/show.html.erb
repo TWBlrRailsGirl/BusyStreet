@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Location:</b>
+  <%= @alert.location %>
+</p>
+
+<p>
+  <b>Intensity:</b>
+  <%= @alert.intensity %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @alert.time %>
+</p>
+
+
+<%= link_to 'Edit', edit_alert_path(@alert) %> |
+<%= link_to 'Back', alerts_path %>
